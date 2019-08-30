@@ -80,7 +80,7 @@ module.exports = {
 
       if (!user) {
         throw new ApolloError(
-          "User based on provided ID doesn't exist",
+          "Unable to retrieve user profile. Provided token is invalid.",
           "ENOENT"
         );
       }
