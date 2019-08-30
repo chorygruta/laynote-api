@@ -8,6 +8,12 @@ http://laynote-staging-api.us-west-1.elasticbeanstalk.com/graphql-api
 [Altair GraphQL Client](https://altair.sirmuel.design/) or 
 [Apollo Playground](http://laynote-staging-api.us-west-1.elasticbeanstalk.com/graphql-api)
 
+### Things to know
+  - User model has one-to-many relationship with Category and Note models.
+  - Category model has one-to-many relationship with the Note Model.
+  - A categoryId is not required to create a Note record.
+  - Dataloader is used to avoid the n+1 problem.
+
 ### Languages/technologies
   - Node.js
   - Apollo Server
@@ -34,11 +40,7 @@ http://laynote-staging-api.us-west-1.elasticbeanstalk.com/graphql-api
   - Query to retrieve all categories
   - Query to retreive one category
   
-### Things to know
-  - User model has one-to-many relationship with Category and Note models.
-  - Category model has one-to-many relationship with the Note Model.
-  - A categoryId is not required to create a Note record.
-  - Dataloader is used to avoid the n+1 problem.
+
 
 ## Build Setup
 
