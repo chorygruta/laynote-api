@@ -1,0 +1,44 @@
+{
+  "name": "laynote-api",
+  "version": "1.0.0",
+  "description": "A GraphQL server for a note-taking app called Laynote.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL",
+    "Node",
+    "API"
+  ],
+  "author": "chorygruta@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "bcrypt": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dataloader": "^1.4.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "graphql": "^14.3.0",
+    "graphql-subscriptions": "^1.1.0",
+    "graphql-tools": "^4.0.4",
+    "graphql-type-json": "^0.3.0",
+    "jsonwebtoken": "^8.4.0",
+    "jwk-to-pem": "^2.0.0",
+    "merge-graphql-schemas": "^1.5.8",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.1",
+    "password-validator": "^4.1.1",
+    "sequelize": "^5.8.6",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "jshint": "^2.9.7"
+  }
+}
