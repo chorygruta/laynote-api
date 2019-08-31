@@ -58,6 +58,6 @@ http://laynote-staging-api.us-west-1.elasticbeanstalk.com/graphql-api
 $ npm install
 
 # serve with hot reload at localhost:3000
-$ npm run serve
+$ nodemon app
 
 ```
